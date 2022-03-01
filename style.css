@@ -752,6 +752,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
+    height: auto;
 }
 
 .portfolio-row {
@@ -834,11 +836,6 @@ h4 {
 
 .bg-presentation {
     background-image: url("images/image-de-presentation.webp");
-}
-
-img.img-responsive.portfolio-thumb {
-    width: 100%;
-    height: auto;
 }
 
 @media (max-width: 1024px) {
