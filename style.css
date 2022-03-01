@@ -363,6 +363,17 @@ a:hover {
     z-index: 2;
 }
 
+.citation {
+    font-style: italic;
+    font-size: 2.3rem;
+    line-height: 2.6rem;
+}
+
+.author-citation {
+    font-weight: 100;
+    font-size: 2rem;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -650,7 +661,7 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family: "helvetica", sans-serif;
     font-weight: 400;
     color: #575757!important;
 }
@@ -903,8 +914,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .b-parallax {
         background-attachment: scroll;
