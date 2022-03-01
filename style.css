@@ -836,6 +836,11 @@ h4 {
     background-image: url("images/image-de-presentation.webp");
 }
 
+img.img-responsive.portfolio-thumb {
+    width: 100%;
+    height: auto;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
