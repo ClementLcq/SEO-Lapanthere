@@ -844,6 +844,15 @@ img.img-responsive.portfolio-thumb {
     background-image: url("images/image-de-presentation.webp");
 }
 
+#bloc-8 p {
+    font-size: 15px;
+}
+
+img.center-block.image-resize-mode {
+    width: 100px;
+    height: auto;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
