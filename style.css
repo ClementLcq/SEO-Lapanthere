@@ -867,6 +867,9 @@ img.center-block.image-resize-mode {
         padding-left: 0;
         padding-right: 0;
     }
+    p {
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -876,17 +879,26 @@ img.center-block.image-resize-mode {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    p {
+        font-size: 13px;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
+    p {
+        font-size: 13px;
+    }
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    p {
+        font-size: 13px;
     }
 }
 
@@ -916,6 +928,9 @@ img.center-block.image-resize-mode {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+    p {
+        font-size: 13px;
     }
 }
 
@@ -1056,6 +1071,9 @@ img.center-block.image-resize-mode {
         width: 180px;
         height: 320px;
     }
+    p {
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1063,10 +1081,16 @@ img.center-block.image-resize-mode {
         padding-left: 0;
         padding-right: 0;
     }
+    p {
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    p {
+        font-size: 13px;
     }
 }
