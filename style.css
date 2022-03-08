@@ -764,7 +764,8 @@ h4 {
 }
 
 img.img-responsive.portfolio-thumb {
-    aspect-ratio: attr(width) / attr(height);
+    width: 100%;
+    height: auto;
 }
 
 .avatar {
