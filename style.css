@@ -301,10 +301,10 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
-    width: 200px;
+    width: 100%;
+    height: auto;
 }
 
 .navbar-brand img[src$=svg] {
@@ -371,6 +371,16 @@ a:hover {
 .author-citation {
     font-weight: 100;
     font-size: 2rem;
+}
+
+.image-resize-mode {
+    width: 100px;
+    height: auto;
+}
+
+img .img-responsive.portfolio-thumb {
+    width: 100%;
+    height: auto;
 }
 
 @media (min-width: 768px) {
