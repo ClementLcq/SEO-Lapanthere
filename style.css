@@ -307,7 +307,7 @@ img {
 .navbar-brand img {
     margin: 0 5px 0 0;
     display: inline;
-    width: 100%;
+    width: 200px;
     height: auto;
 }
 
@@ -852,7 +852,7 @@ img.img-responsive.portfolio-thumb {
 }
 
 img.center-block.image-resize-mode {
-    width: 100px;
+    width: 150px;
     height: auto;
 }
 
@@ -1009,7 +1009,8 @@ img.center-block.image-resize-mode {
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
+        width: 150px;
+        height: auto;
     }
     .nav-invert .navbar-header {
         float: none;
